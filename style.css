@@ -1,0 +1,22 @@
+html {
+	height: 100%;
+	/* max-height: 600px; */
+	width: 1000px;
+	background-color: skyblue;
+	background-image: url("https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png"),
+		url("https://64.media.tumblr.com/75f0a8c0c015fb41548ed12307c4b9d5/b645c56570629124-49/s640x960/9be959fe3b920825554696949a2f4239789b9875.pnj"),
+		url("https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png"),
+		url("https://64.media.tumblr.com/2ece91dc0ec0c31c935548424e3f4abe/1c6b1b2a408dc3ea-87/s640x960/576f293eafee69d7bff95af83a545b681c6ba964.pnj"),
+		url("https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png");
+
+	background-repeat: repeat-x;
+	background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0, 0 30%;
+	background-size: 3000px, 800px, 500px 200px, 1000px, 400px;
+	animation: 50s para infinite linear;
+}
+
+@keyframes para {
+	100% {
+		background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
+	}
+}
